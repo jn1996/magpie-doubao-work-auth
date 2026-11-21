@@ -1,0 +1,43 @@
+{
+  "name": "magpie-doubao-work-auth",
+  "version": "0.4.1",
+  "description": "豆荚：把豆包工作（Doubao Work）的订阅积分变成 magpie 网关上的模型，供其他 Agent 使用",
+  "type": "module",
+  "main": "./index.mjs",
+  "files": [
+    "index.mjs",
+    "lib",
+    "registry-entry.json",
+    "assets",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md",
+    "VERSIONING.md"
+  ],
+  "keywords": [
+    "magpie",
+    "opencode",
+    "opencode-plugin",
+    "doubao",
+    "doubao-work",
+    "pod"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.3.0"
+  },
+  "os": [
+    "win32",
+    "darwin",
+    "linux"
+  ],
+  "magpie": {
+    "name": "豆包工作",
+    "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+PHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMTQiIGZpbGw9IiMyYjZjZjYiLz48cGF0aCBkPSJNMTggMjRoMjBhOCA4IDAgMCAxIDggOHY4SDI2YTggOCAwIDAgMS04LTh6IiBmaWxsPSIjZmZmIiBvcGFjaXR5PSIuOTIiLz48Y2lyY2xlIGN4PSIzMCIgY3k9IjMyIiByPSIzIiBmaWxsPSIjMmI2Y2Y2Ii8+PGNpcmNsZSBjeD0iNDAiIGN5PSIzMiIgcj0iMyIgZmlsbD0iIzJiNmNmNiIvPjxwYXRoIGQ9Ik0xNCA0NGgzNiIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjMiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPjwvc3ZnPg==",
+    "maxConcurrency": 1,
+    "summary": {
+      "en": "Doubao Work subscription as magpie models. Sign in by pasting a cookie, from a local browser, or from the desktop client; every model in the account's menu becomes available, with real quota and daily check-in.",
+      "zh": "把豆包工作订阅变成 magpie 的模型。粘贴 Cookie、读本机浏览器或读桌面客户端都能登录，账号模型菜单里的全部模型（豆包 / DeepSeek / Kimi / GLM 等）都能用，并汇报真实积分与每日签到。"
+    }
+  }
+}

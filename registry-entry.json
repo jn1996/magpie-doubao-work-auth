@@ -1,0 +1,12 @@
+{
+  "package": "magpie-doubao-work-auth",
+  "name": "豆包工作",
+  "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+PHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMTQiIGZpbGw9IiMyYjZjZjYiLz48cGF0aCBkPSJNMTggMjRoMjBhOCA4IDAgMCAxIDggOHY4SDI2YTggOCAwIDAgMS04LTh6IiBmaWxsPSIjZmZmIiBvcGFjaXR5PSIuOTIiLz48Y2lyY2xlIGN4PSIzMCIgY3k9IjMyIiByPSIzIiBmaWxsPSIjMmI2Y2Y2Ii8+PGNpcmNsZSBjeD0iNDAiIGN5PSIzMiIgcj0iMyIgZmlsbD0iIzJiNmNmNiIvPjxwYXRoIGQ9Ik0xNCA0NGgzNiIgc3Ryb2tlPSIjZmZmIiBzdHJva2Utd2lkdGg9IjMiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPjwvc3ZnPg==",
+  "providers": [
+    "doubao"
+  ],
+  "summary": {
+    "en": "Doubao Work (豆包工作) as a magpie provider: sign in by pasting a cookie, from a one-off browser window, or from the desktop client. Every model in the account's menu shows up with its real billing rate (DeepSeek V4.1 Flash and Doubao 2.1 Lite are 0.01x), plan quota in credits, and daily check-in status. No desktop client needed for chat, quota or model listing.",
+    "zh": "把豆包工作接进 magpie：粘贴 Cookie、临时浏览器窗口扫码，或读桌面客户端，三种方式登录。账号模型菜单里的全部模型都会出现，名字后面带豆包真实的扣费倍率（DeepSeek V4.1 Flash 和豆包 2.1 Lite 是 0.01x）；卡片上显示订阅额度、活动赠送额度和每日签到状态。模型调用、积分查询、模型列表都不需要装豆包工作客户端。"
+  }
+}
