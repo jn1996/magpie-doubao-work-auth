@@ -1,4 +1,4 @@
-# magpie-doubao-work-auth
+# magpie-doubao-Zy
 
 <a href="https://linux.do"><img src="https://img.shields.io/badge/LINUX%20DO-%E7%A4%BE%E5%8C%BA-FFB003?style=flat-square" alt="LINUX DO 社区" /></a>
 
